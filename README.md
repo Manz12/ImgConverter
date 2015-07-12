@@ -8,7 +8,7 @@ Easily convert local/network image file to data uri scheme.
 
 #### Here goes the output
 
-![output] ()
+![output] (https://github.com/Zakir289/ImgConverter/blob/master/DocumentedImages/output.png)
 
 
 The `encode` api returns a map of file being encoded to its result. If the specified input file is larger than `4KB`, it sets an `err`, you can set `options.force` to true to encode larger files. It is generally not a good idea to encode larger image files to data-uri as it increased the page load time.
